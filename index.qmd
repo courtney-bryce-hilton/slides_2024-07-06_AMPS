@@ -1,0 +1,470 @@
+---
+title: "assessment of global variation in the perception of tonal hierarchies with a gamified tone-probe task"
+subtitle: "AMPS 2024 Conference, Melbourne"
+author: "-<br>Courtney B. Hilton"
+format:
+  revealjs:
+    theme: [default, styles.scss]
+    slide-number: true
+    template-partials:
+      - title-slide.html
+title-slide-attributes:
+  data-background-color: "#00467F"
+  data-background-size: contain
+date: 2024-07-06
+date-format: long
+title-logo: "./media/logos/auckland.png"
+---
+
+## what are tonal hierarchies? {.center}
+
+## what are tonal hierarchies?
+
+::: circle-container
+::: {.circle onclick="playSound(0)"}
+0
+:::
+
+::: {.circle onclick="playSound(1)"}
+1
+:::
+
+::: {.circle onclick="playSound(2)"}
+2
+:::
+
+::: {.circle onclick="playSound(3)"}
+3
+:::
+
+::: {.circle onclick="playSound(4)"}
+4
+:::
+
+::: {.circle onclick="playSound(5)"}
+5
+:::
+
+::: {.circle onclick="playSound(6)"}
+6
+:::
+
+::: {.circle onclick="playSound(7)"}
+7
+:::
+
+::: {.circle onclick="playSound(8)"}
+8
+:::
+
+::: {.circle onclick="playSound(9)"}
+9
+:::
+
+::: {.circle onclick="playSound(10)"}
+10
+:::
+
+::: {.circle onclick="playSound(11)"}
+11
+:::
+:::
+
+<link rel="stylesheet" href="./scripts/tonal-hierarchies-demo_styles.css">
+
+```{=html}
+<script src="./scripts/tonal-hierarchies-demo_script.js"></script>
+```
+<audio class="media_example hide" controls>
+
+<source src="media/audio/0_4_7.mp3" type="audio/mp3">
+
+</audio>
+
+
+## measuring tonal hierarchies? {.center}
+
+## measuring tonal hierarchies?
+
+::: columns
+::: {.column width="50%"}
+<img src="./media/images/krumhansl_shepard_1979.png" class="center" width="80%"/></img>
+:::
+
+::: {.column width="50%"}
+<img src="./media/images/krumhansl.jpeg" class="center" width="50%"/></img> <img src="./media/images/shepard.jpeg" class="center" width="40%"/></img>
+:::
+:::
+
+## measuring tonal hierarchies?
+
+```{=html}
+<link rel="stylesheet" href="scripts/tone_probe_example.css">
+<script src="scripts/tone_probe_example.js"></script>
+
+<div class="example-box">
+  <p id="toneProbeTitle">Tone Probe Simulator</p>
+  <button onclick="playExample(1)">Example 1</button>
+  <button onclick="playExample(2)">Example 2</button>
+
+  <p id="toneProbeAnnotation">How well did that tone complete the sequence?</p>
+
+  <div class="likert-scale">
+    <span>very bad</span>
+    <input type="radio" name="likert" id="likert-1"><label for="likert-1">1</label>
+    <input type="radio" name="likert" id="likert-2"><label for="likert-2">2</label>
+    <input type="radio" name="likert" id="likert-3"><label for="likert-3">3</label>
+    <input type="radio" name="likert" id="likert-4"><label for="likert-4">4</label>
+    <input type="radio" name="likert" id="likert-5"><label for="likert-5">5</label>
+    <input type="radio" name="likert" id="likert-6"><label for="likert-6">6</label>
+    <input type="radio" name="likert" id="likert-7"><label for="likert-7">7</label>
+    <span>very good</span>
+  </div>
+</div>
+```
+
+
+## measuring tonal hierarchies? {.center}
+
+![](media/figures/probe_tone.png){width="80%"}
+
+## measuring tonal hierarchies? {.center}
+
+::: columns
+::: {.column width="50%"}
+![](media/figures/probe_tone_chromatic.png){width="90%"}
+:::
+
+::: {.column width="50%"}
+![](media/figures/tone_circle.png){width="90%"}
+:::
+:::
+
+## measuring tonal hierarchies? {.center}
+
+::: columns
+::: {.column width="50%"}
+![](media/figures/probe_tone_diatonic.png){width="90%"}
+:::
+
+::: {.column width="50%"}
+![](media/figures/tone_circle_c_major.png){width="90%"}
+:::
+:::
+
+## measuring tonal hierarchies? {.center}
+
+::: columns
+::: {.column width="50%"}
+![](media/figures/probe_tone_triadic.png){width="90%"}
+:::
+
+::: {.column width="50%"}
+![](media/figures/tone_circle_c_major_triad.png){width="90%"}
+:::
+:::
+
+## measuring tonal hierarchies? {.center}
+
+::: columns
+::: {.column width="50%"}
+![](media/figures/probe_tone_tonic.png){width="90%"}
+:::
+
+::: {.column width="50%"}
+![](media/figures/tone_circle_c_tonic.png){width="90%"}
+:::
+:::
+
+
+
+## limitations
+
+
+::::::: {.container-col .center}
+
+::: {.fork-lines .fragment}
+:::
+
+:::::: {.container-row .incremental}
+::::: fragment
+::: {.element .fragment}
+**generalisability**
+:::
+
+:::: {.fragment .line-above}
+::: {.element2 .bit-smaller}
+participants
+:::
+::::
+
+:::: {.fragment .line-above}
+::: {.element2 .bit-smaller}
+stimuli
+:::
+::::
+:::::
+
+::::: fragment
+::: {.element .fragment}
+**measurement**
+:::
+
+::: {.fragment .line-above}
+::: {.element2 .bit-smaller}
+subjective
+:::
+:::
+
+::: {.fragment .line-above}
+::: {.element2 .bit-smaller}
+ungrounded
+:::
+:::
+:::::
+
+::::::
+:::::::
+
+---
+
+<div style="text-align:center;">
+
+<video class="media_example" controls>
+<source src="media/videos/tonic_intro_sequence.mp4" type="video/mp4">
+</video>
+
+</div>
+
+
+## gamified citizen science approach
+
+::: center
+![](media/images/tml.png){width="60%"}
+:::
+
+---
+
+<div style="text-align:center;">
+
+<video class="media_example" controls>
+<source src="media/videos/tonic-music-example.mp4" type="video/mp4">
+</video>
+
+</div>
+
+## 1. tonal context {.center}
+
+![](media/images/walkthrough1.png){width="50%"}
+
+## 2. context replay 1 {.center}
+
+![](media/images/walkthrough2.png){width="50%"}
+
+## 3. probe1 {.center}
+
+![](media/images/walkthrough3.png){width="50%"}
+
+
+## 4. context replay 2 {.center}
+
+![](media/images/walkthrough4.png){width="50%"}
+
+
+## 5. probe 2 {.center}
+
+![](media/images/walkthrough5.png){width="50%"}
+
+
+## 6. response period {.center}
+
+![](media/images/walkthrough6.png){width="50%"}
+
+
+## 7. feedback part 1 {.center}
+
+![](media/images/walkthrough7.png){width="50%"}
+
+
+## 8. feedback part 2 {.center}
+
+![](media/images/walkthrough8.png){width="50%"}
+
+## gamification...{.center}
+
+![](media/images/music-score.png){width="25%"}
+
+## gamification...{.center}
+
+![](media/images/leaderboard.png){width="27%"}
+
+## gamification...{.center}
+
+![](media/images/results-page.png){width="40%"}
+
+## some very preliminary results... {.center}
+
+## our sample so far...{.incremental}
+
+::: {.columns}
+::: {.column .incremental width="50%" .fragment}
+-   \~2,000 participants so far
+-   59% male, 34% female, 8% other
+-   47% have had 'some' music lessons
+:::
+
+::: {.column width="50%" .fragment}
+![](media/figures/ages.png){width="90%"}
+:::
+:::
+
+## our sample so far...
+
+::: {.columns .incremental}
+::: {.column width="50%"}
+![](media/figures/countries.png){width="80%"}
+:::
+
+::: {.column .fragment width="50%"}
+![](media/figures/language.png){width="80%"}
+:::
+:::
+
+## our sample so far...
+
+::: {.columns .incremental}
+::: {.column width="50%"}
+![](media/figures/musicSkill.png){width="90%"}
+:::
+
+::: {.column .fragment width="50%"}
+![](media/figures/education.png){width="90%"}
+:::
+:::
+
+## what about data from the task? {.center}
+
+## distribution of guesses across all stimuli {.center .bit-smaller}
+
+![](media/figures/all_songs_matrix.png){width="60%"}
+
+## broken down by musical origin
+
+::: {.columns}
+::: {.column width="50%"}
+![](media/figures/billboard_matrix.png){width="90%"}
+:::
+
+::: {.column width="50%"}
+![](media/figures/NHS_matrix.png){width="90%"}
+:::
+:::
+
+## rough test of response time relationships {.bit-smaller}
+
+
+::: {.columns .incremental}
+::: {.column width="25%" .fragment}
+![](media/figures/rt_rough_test.png){width="90%"}
+:::
+
+::: {.column width="37.5%" .fragment}
+![](media/figures/rt_rough_test_musicLessons.png){width="90%"}
+:::
+
+::: {.column width="37.5%" .fragment}
+![](media/figures/rt_rough_test_corpus.png){width="90%"}
+:::
+:::
+
+
+## funders {.center}
+
+::: {.container-col .column width="90%"}
+
+![](media/logos/marsden_logo.jpg){width="40%"}
+
+
+
+![](media/logos/FoS_logo.png){width="40%"}
+
+:::
+
+
+## go play the game! {.center}
+
+<figure>
+
+<img src="./media/toneguesser_QR.svg" class="center" width="35%"/>
+
+<figcaption style="font-size: 130%; color: #00467F;">
+
+themusiclab/quizzes/toneguesser
+
+</figcaption>
+
+</figure>
+
+---
+
+---
+
+
+## why are tonal hierarchies interesting? {.bit-smaller}
+
+::: {.container-col .center}
+::: {.element .fragment}
+**A discrepancy between**
+:::
+
+::: {.fork-lines .fragment}
+:::
+
+::: {.container-row .incremental}
+::: {.element .fragment}
+**physical representation**
+:::
+
+::: {.element .fragment}
+**mental representation**
+:::
+:::
+:::
+
+## why are tonal hierarchies interesting? {.bit-smaller}
+
+::: {.columns .incremental}
+::: {.column .fragment width="50%"}
+![](media/figures/pitch_range.png){width="90%"}
+:::
+
+::: {.column .fragment width="50%"}
+![](media/figures/tonal_structure.png){width="90%"}
+:::
+:::
+
+<audio class="media_example hide" controls>
+
+<source src="media/audio/pitch_sweep.wav" type="audio/wav">
+
+</audio>
+
+
+## what are tonal hierarchies?
+
+<div style="text-align:center;">
+
+<video class="media_example" controls>
+<source src="media/videos/scale_example.mp4" type="video/mp4">
+</video>
+
+</div>
+
+
+## thanks for your attention {.center}
+
+```{=html}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="zoomer.js"></script>
+<script type="text/javascript" src="audio_player.js"></script>
+```
