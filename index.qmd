@@ -342,13 +342,18 @@ ungrounded
 :::
 :::
 
-## what about data from the task? {.center}
+## preliminary task results {.center}
 
-## distribution of guesses across all stimuli {.center .bit-smaller}
+## preliminary task results {.center}
+
+![](media/figures/matrix_diagram.png){width="60%"}
+
+
+## preliminary task results {.center .bit-smaller}
 
 ![](media/figures/all_songs_matrix.png){width="60%"}
 
-## broken down by musical origin
+## preliminary task results
 
 ::: {.columns}
 ::: {.column width="50%"}
@@ -360,7 +365,12 @@ ungrounded
 :::
 :::
 
-## rough test of response time relationships {.bit-smaller}
+## preliminary task results {.center}
+
+![](media/figures/tonal_similarity_comparison.png){width="50%"}
+
+
+## rough test of response-time relationships {.bit-smaller}
 
 
 ::: {.columns .incremental}
@@ -408,46 +418,6 @@ themusiclab/quizzes/toneguesser
 ---
 
 ---
-
-
-## why are tonal hierarchies interesting? {.bit-smaller}
-
-::: {.container-col .center}
-::: {.element .fragment}
-**A discrepancy between**
-:::
-
-::: {.fork-lines .fragment}
-:::
-
-::: {.container-row .incremental}
-::: {.element .fragment}
-**physical representation**
-:::
-
-::: {.element .fragment}
-**mental representation**
-:::
-:::
-:::
-
-## why are tonal hierarchies interesting? {.bit-smaller}
-
-::: {.columns .incremental}
-::: {.column .fragment width="50%"}
-![](media/figures/pitch_range.png){width="90%"}
-:::
-
-::: {.column .fragment width="50%"}
-![](media/figures/tonal_structure.png){width="90%"}
-:::
-:::
-
-<audio class="media_example hide" controls>
-
-<source src="media/audio/pitch_sweep.wav" type="audio/wav">
-
-</audio>
 
 
 ## what are tonal hierarchies?
