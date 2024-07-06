@@ -74,7 +74,9 @@ title-logo: "./media/logos/auckland.png"
 <script src="./scripts/tonal-hierarchies-demo_script.js"></script>
 
 <audio class="media_example hide" controls>
-  <source src="media/audio/0_4_7.mp3" type="audio/mp3">
+
+<source src="media/audio/0_4_7.mp3" type="audio/mp3">
+
 </audio>
 
 
@@ -126,52 +128,7 @@ title-logo: "./media/logos/auckland.png"
 
 ## measuring tonal hierarchies? {.center}
 
-::: columns
-::: {.column width="50%"}
-![](media/figures/probe_tone_chromatic.png){width="90%"}
-:::
-
-::: {.column width="50%"}
-![](media/figures/tone_circle.png){width="90%"}
-:::
-:::
-
-## measuring tonal hierarchies? {.center}
-
-::: columns
-::: {.column width="50%"}
-![](media/figures/probe_tone_diatonic.png){width="90%"}
-:::
-
-::: {.column width="50%"}
-![](media/figures/tone_circle_c_major.png){width="90%"}
-:::
-:::
-
-## measuring tonal hierarchies? {.center}
-
-::: columns
-::: {.column width="50%"}
-![](media/figures/probe_tone_triadic.png){width="90%"}
-:::
-
-::: {.column width="50%"}
-![](media/figures/tone_circle_c_major_triad.png){width="90%"}
-:::
-:::
-
-## measuring tonal hierarchies? {.center}
-
-::: columns
-::: {.column width="50%"}
-![](media/figures/probe_tone_tonic.png){width="90%"}
-:::
-
-::: {.column width="50%"}
-![](media/figures/tone_circle_c_tonic.png){width="90%"}
-:::
-:::
-
+![](media/figures/probe_tone_ordered.png){width="80%"}
 
 
 ## limitations
@@ -300,19 +257,9 @@ ungrounded
 
 ## some very preliminary results... {.center}
 
-## our sample so far...{.incremental}
+## our sample so far...{.center}
 
-::: {.columns}
-::: {.column .incremental width="50%" .fragment}
--   \~2,000 participants so far
--   59% male, 34% female, 8% other
--   47% have had 'some' music lessons
-:::
-
-::: {.column width="50%" .fragment}
-![](media/figures/ages.png){width="90%"}
-:::
-:::
+![](media/figures/ages.png){width="50%"}
 
 ## our sample so far...
 
@@ -351,12 +298,12 @@ ungrounded
 
 ## preliminary task results
 
-::: {.columns}
+::: {.columns .incremental}
 ::: {.column width="50%"}
 ![](media/figures/billboard_matrix.png){width="90%"}
 :::
 
-::: {.column width="50%"}
+::: {.column width="50%".fragment}
 ![](media/figures/NHS_matrix.png){width="90%"}
 :::
 :::
@@ -366,22 +313,18 @@ ungrounded
 ![](media/figures/tonal_similarity_comparison.png){width="50%"}
 
 
-## rough test of response-time relationships {.bit-smaller}
+## rough test of response-time relationships {.bit-smaller .center}
 
 
-::: {.columns .incremental}
-::: {.column width="25%" .fragment}
-![](media/figures/rt_rough_test.png){width="90%"}
-:::
+![](media/figures/rt_rough_test.png){width=30%"}
 
-::: {.column width="37.5%" .fragment}
-![](media/figures/rt_rough_test_musicLessons.png){width="90%"}
-:::
+## rough test of response-time relationships {.bit-smaller .center}
 
-::: {.column width="37.5%" .fragment}
-![](media/figures/rt_rough_test_corpus.png){width="90%"}
-:::
-:::
+![](media/figures/rt_rough_test_musicLessons.png){width="40%"}
+
+## rough test of response-time relationships {.bit-smaller .center}
+
+![](media/figures/rt_rough_test_corpus.png){width="40%"}
 
 
 ## funders {.center}
@@ -425,6 +368,57 @@ themusiclab/quizzes/toneguesser
 </video>
 
 </div>
+
+
+## measuring tonal hierarchies? {.center}
+
+::: columns
+::: {.column width="50%"}
+![](media/figures/probe_tone_chromatic.png){width="90%"}
+:::
+
+::: {.column width="50%"}
+![](media/figures/tone_circle.png){width="90%"}
+:::
+:::
+
+## measuring tonal hierarchies? {.center}
+
+::: columns
+::: {.column width="50%"}
+![](media/figures/probe_tone_diatonic.png){width="90%"}
+:::
+
+::: {.column width="50%"}
+![](media/figures/tone_circle_c_major.png){width="90%"}
+:::
+:::
+
+## measuring tonal hierarchies? {.center}
+
+::: columns
+::: {.column width="50%"}
+![](media/figures/probe_tone_triadic.png){width="90%"}
+:::
+
+::: {.column width="50%"}
+![](media/figures/tone_circle_c_major_triad.png){width="90%"}
+:::
+:::
+
+## measuring tonal hierarchies? {.center}
+
+::: columns
+::: {.column width="50%"}
+![](media/figures/probe_tone_tonic.png){width="90%"}
+:::
+
+::: {.column width="50%"}
+![](media/figures/tone_circle_c_tonic.png){width="90%"}
+:::
+:::
+
+
 
 
 ## thanks for your attention {.center}
